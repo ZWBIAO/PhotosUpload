@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th=”http://www.thymeleaf.org”>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div th:each="p,stat:${pu?.getList()}"><!-- {list}与PhotoController要对应 -->
+			<!-- p为每次循环的变量 stat循环次数 -->
+	<div th:text="${p?.path}"></div>
+	              <!-- p,路径 -->
+	              <!-- 显示所有图片（循环） -->
+</div>
+<div>
+<div>共<p th:text = "${pu?.getPagecount()}"></p></div><!-- 拆包 -->
+<div>第</div>
+
+<div><a href="?page=1">1</a></div>
+<div><a href="?page=2">2</a></div>
+<div><a href="?page=3">3</a></div>
+<div>页</div>
+
+
+</div>
+</body>
+</html>

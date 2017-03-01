@@ -1,0 +1,583 @@
+﻿body {
+    font-family: "微软雅黑", "宋体", "arial";
+	background-image: url(../img/background.png);
+}
+p {
+	font-weight: 500;
+}
+a:hover {
+    color: #72d0f8 !important;
+	text-decoration:none !important;}
+
+/*_______________________导航_______________________*/
+.navbar-default {
+	background: #72d0f8 none repeat scroll 0 0;
+	font-size: 14px;
+	margin-top: 15px;
+	font-weight:600;
+}
+.navbar-nav > li > a {
+	padding-bottom: 15px;
+	padding-top: 27px;
+}
+ul li {
+	list-style: none;
+}
+ul {
+	padding: 0
+}
+.nav li a:hover {
+	color: #000!important
+}
+.navbar-nav li.active a {
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+}/* CSS Document */
+img {
+	max-width: 100%;
+}
+#navbar-example {
+	margin-top: -1px;
+	padding: 12px 0;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	color: #595959;
+	background-color: #e7e7e7;
+}
+.active.text-center {
+	margin-top: 0px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #595959 !important;
+}
+/*_______________________导航_______________________*/
+/*_______________________有关我们_______________________*/
+.title {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 41px;
+}
+.title2 {
+	font-size: 16px;
+	text-align: center;
+	width: 50%;
+	margin: 0px auto;
+    overflow: hidden;
+    height: 100px;
+	line-height: 2;
+}
+.ttitle2 {
+	font-size: 16px;
+	    overflow: hidden;
+    height: 57px;
+	text-align: center;
+	width: 50%;
+	margin: 0px auto;
+	margin-bottom: 27px;
+	color:#fff;
+}
+.brief {
+	font-size: 14px;
+	text-align: center;
+	margin: 0 63px;
+	margin-top: 10px;
+	 margin-left: 47px; margin-right: 47px;
+	     overflow: hidden;
+    height: 47px;
+}
+.tu {
+	border: 2px #72d0f8 solid;
+	overflow: hidden;
+	    height: 250px;
+}
+.kangk{border: 2px #fff solid;
+	overflow: hidden;
+	    height: 400px;}
+.about {
+	text-align: center;
+}
+.jczp-img {
+	max-width: 100%;
+	max-height: 100%;
+	vertical-align: middle;
+}
+.hvr-grow-shadow {
+	vertical-align: middle;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+/*_______________________有关我们_______________________*/
+/*_______________________店铺介绍_______________________*/
+.introduction {
+	background-color: #72d0f8;
+}
+.nae {
+	text-align: center;
+	font-size: 16px;
+	margin-top: 13px;
+	color:#fff;
+	font-weight: 600;
+}
+.nae2 {
+	text-align: center;
+	font-size: 16px;
+	color:#fff;
+	font-weight: 600;
+	margin:-16px;
+}
+.button {
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 41px;
+}
+.ttitlee {
+    font-size: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 73px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 14px;
+    padding-top: 29px;
+    color: #fff;
+}
+/*_______________________店铺介绍_______________________*/
+/*_______________________产品展示_______________________*/
+.bos {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 13px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 31px;
+}
+.brief2 {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    margin-top: -13px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    height: 48px;
+}
+.boss {
+	font-size: 16px;
+	text-align: center;
+	margin-top:10px;
+	font-weight:600;
+	    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 31px;
+}
+/*_______________________产品展示_______________________*/
+/*_______________________会员新闻_______________________*/
+.biaoti {
+    font-size: 18px;
+    margin-top: 18px;
+    color: #fff;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 34px;
+    margin-bottom: -3px;
+}
+.boder {
+	border: 1px #000 dotted;
+	width: 107px;
+	text-align: center;
+}
+.hyxw {
+	background-color: #72d0f8;
+}
+.hytu {
+	border: 2px #fff solid;
+	margin-top: 17px;
+	margin-bottom: 18px;
+	overflow: hidden;
+}
+.title3 {
+	color: #fff;
+	font-size: 16px;
+	padding-top: 22px;
+	font-weight:600;
+	    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 46px;
+}
+.nei {
+	color: #fff;
+	    overflow: hidden;
+    height: 50px;
+}
+.nei2 {
+	color: #fff;
+}
+
+.mmm {
+    border: #fff 1px dotted;
+    width: 92px;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    margin-top: 4px;
+}
+.ccc {
+	box-shadow: 2px 5px 5px #aaa;
+	text-align: center;
+	border: 1px #a4a4a4 solid;
+	overflow: hidden;
+	border-radius: 12px;
+	
+}
+.more {
+	margin-top: 19px;
+	margin-bottom: 26px;
+}
+/*_______________________会员新闻_______________________*/
+/*_______________________联系方式_______________________*/
+.contact {
+	background-color: #72d0fb;
+}
+.erwei {
+	margin-top: 32px;
+	margin-left: 23px;
+}
+.ddd {
+	margin-right: 116px;
+	font-weight: normal;
+	color: #fff;
+}
+.wechat {
+	margin-left: 20px;
+	margin-top: 8px;
+	font-weight: bold;
+}
+.biao {
+	padding-top: 27px;
+	padding-bottom: 46px;
+}
+
+.coop {
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+/*_______________________联系方式_______________________*/
+.fenlan12 {
+	background-attachment: fixed;
+	background-image:url(../images/addition.jpg);
+	background-repeat: no-repeat;
+	padding: 120px;
+	width: 100%;
+}
+.fenlan123 {
+	background-attachment: fixed;
+	background-image:url(../images/acquaintance.jpg);
+	background-repeat: no-repeat;
+	padding: 120px;
+	width: 100%;
+}
+/*_______________________关于我们内_______________________*/
+
+.yaodian {
+	margin-top: 27px;
+	margin-bottom: 33px;
+	margin-left: 80px;
+	margin-right: 80px;
+	color: #666664;
+}
+.yyaodian {
+	    margin-top: 27px;
+    margin-bottom: 43px;
+    margin-left: 9px;
+    color: #666664;
+    overflow: hidden;
+    height: 44px;
+}
+.hrr {
+	border: #72d0fb 1px dotted;
+	width: 92px;
+	margin-left: 10px;
+	margin-bottom: 19px;
+}
+.shequ {
+	font-size: 18px;
+	margin-top: 16px;
+	margin-bottom: 7px;
+	margin-left: 11px;
+	font-weight:600;
+}
+.lao {
+	color: #666664;
+	margin-left: 13px;
+	margin-right: 13px;
+	    overflow: hidden;
+    height: 85px;
+}
+.lao2 {
+	color: #72d0fb;
+	margin-left: 13px;
+	margin-right: 13px;
+	    overflow: hidden;
+    height: 50px;
+}
+.scenoo {
+	margin: 0 auto;
+	padding-left: 14px;
+	padding-right: 20px;
+	margin-bottom: 22px;
+}
+.scenn {
+	margin-bottom: 18px;
+}
+.sceno {
+	margin-bottom: 23px;
+}
+.shehui {
+	margin-bottom: 40px;
+}
+.name {
+	margin-top: 31px;
+}
+.cpmc {
+	margin-top: 42px;
+}
+/*_________________按钮_________________*/
+.buttom {
+	margin-top: 40px;
+	margin-bottom: 32px;
+	list-style: none;
+	float: left;
+	padding-left: 0px;
+}
+.buttom-active {
+	background-color: #72d0fb;
+	color: #fff;
+}
+.buttom a:hover .buttom-hover {
+	background-color: #72d0fb;
+	color: #fff;
+}
+.buttom li {
+	    height: 31px;
+    border: 2px solid #72d0fb;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 8px;
+    text-align: center;
+    line-height: 28px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.buttom a {
+	font-size: 14px;
+font-weight: 600;
+	color: #000;
+	text-decoration: none;
+}
+.fenye {
+	margin-top: 51px;
+	margin-bottom: 2px;
+}
+.pager .previous > a, .pager .previous > span {
+	float: none;
+	color: #fff;
+}
+.pager .next > a, .pager .next > span {
+	float: none;
+	color: #fff;
+}
+.pager li > a, .pager li > span {
+	background-color: #72D0F8;
+	border-radius: 15px;
+	display: inline-block;
+	padding: 5px 14px;
+}
+a {
+	color: #000;
+}
+/*_________________按钮_________________*/
+/*_________________会员内_________________*/
+.fff {
+	background-color: #fafafa;
+	text-align: center;
+	margin-bottom: 25px;
+	margin-top: 20px;
+	box-shadow: 2px 5px 5px #aaa;
+}
+.bbq {
+	margin-top: 27px;
+	margin-bottom: 8px;
+	border: 1px #a4a4a4 solid;
+	overflow: hidden;
+	height: 212px;
+}
+.wenzi1 {
+	margin-bottom: 14px;
+	font-size: 16px;
+	font-weight:600;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 23px;
+	margin-bottom: 7px;
+}
+.wenzi2 {
+	margin: 0 24px;
+	padding-bottom: 24px;
+	    overflow: hidden;
+    height: 78px;
+}
+.xiann {
+	border: #a0a0a0 1px dotted;
+	width: 272px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+/*_________________会员内_________________*/
+/*_________________视频_________________*/
+.vi {
+	text-align: center;
+}
+.form-inline {
+	margin-bottom: 17px;
+}
+.vi{
+    margin-top: 12px;
+}
+/*_______________________详细页_______________________*/
+.others-lbk{
+	margin-left: 69px;
+	margin-right: 69px;
+	width: auto;
+}
+.others-lbk-left{
+	margin-left: 69px;
+}
+.others-lbk-right{
+	margin-right: 69px;
+}
+.xxy-title {
+    position: relative;
+    font-size: 20px;
+    color: #303030;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-top: 35px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 40px;
+}
+.xxy-title:after{ 
+	background: #72d0fb;
+    content: "";
+    height: 2px;
+    margin-left: 10px;
+    position: absolute;
+    top: 17px;
+    width: 99%;
+}
+.xxy-fenlei{
+	list-style: none;
+	margin-top: -15px;
+	margin-bottom: 30px;
+    padding: 0;
+}
+.xxy-fenlei li{
+	margin-bottom: 13px;
+}
+.xxy-fenlei a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #585858;
+    font-size: 600;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 20px;
+}
+.xgfl-title.animated {
+    overflow: hidden;
+    height: 40px;
+}
+.xxy-fenlei a:hover{
+	color: #6f6f6f;
+}
+.xxy-img{
+	float: right;
+	border: 2px solid #72d0fb;
+	margin-bottom: 15px;
+}
+.others-p-words {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #6f6f6f;
+    overflow: hidden;
+    height: 101px;
+    text-align: center;
+}
+.others-img-div {
+    border: 1px #72d0fb solid;
+    overflow: hidden;
+}
+/*----------------补充---------------*/
+.zuo{margin-top: 16px; margin-bottom: 16px;}
+.you{margin-top: 16px; margin-bottom: 16px;}
+.rightt{margin-top: 45px;
+    color: #fff;}
+.img.img-responsive.center-block.jczp-img.hvr-grow-shadow {
+    margin: auto;
+    padding: 29px;
+}
+.member {
+    margin-top: -29px;
+}
+.frg a:hover .magnifier {
+	z-index: 2;
+	top: 40%;
+}
+.frg a:hover .mask {
+	background: gray;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+}
+.magnifier {
+	font-size: 40px;
+	position: absolute;
+	top: 60%;
+	left: 48%;
+	z-index: -1;
+	transition-duration: 0.3s;
+	color: #fff;
+}
+.frg a:hover .magnifier {
+	z-index: 2;
+	top: 40%;
+}
+.mask{ text-align:center;}
+
+a{ text-decoration:none;}

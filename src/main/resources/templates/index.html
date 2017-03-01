@@ -1,0 +1,385 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>连锁药店－响应式网站模版</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/animate.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<nav id="navbar-example" class="navbar navbar-default navbar-fixed-top " role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse"> <span class="sr-only">切换导航</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <img src="images/index_02.png" class="abc"></div>
+    <div class="collapse navbar-collapse nav-bar text-center"  id="example-navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active text-center"><a href="index.html">首页</a></li>
+        <li class="text-center"><a href="about.html">关于我们</a></li>
+        <li class="text-center"><a href="introduction.html">店铺介绍</a></li>
+        <li class="text-center"><a href="display.html">产品展示</a></li>
+        <li class="text-center"><a href="member.html">会员中心</a></li>
+        <li class="text-center"><a href="news.html">新闻中心</a></li>
+        <li class="text-center"><a href="clerk.html">优秀店员</a></li>
+        <li class="text-center"><a href="video.html">视频专区</a></li>
+        <li class="text-center"><a href="photo.html">相册</a></li>
+        <li class="text-center"><a href="contact.html">联系我们</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--<div class="ppp text-center">
+<div id="myCarousel" class="carousel slide">
+ 
+   <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+   </ol>   
+   <div class="carousel-inner">
+      <div class="item active">
+         <img src="images/index_05.png" alt="First slide">
+      </div>
+      <div class="item">
+         <img src="images/index_05.png" alt="Second slide">
+      </div>
+      <div class="item">
+         <img src="images/index_05.png" alt="Third slide">
+      </div>
+   </div>
+   <a class="carousel-control left" href="#myCarousel" 
+      data-slide="prev">&lsaquo;</a>
+   <a class="carousel-control right" href="#myCarousel" 
+      data-slide="next">&rsaquo;</a>
+</div>
+</div>-->
+<section class="banner" id="header">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"> 
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
+    
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active"> <img class="img-responsive" alt="Slider" src="images/index_05.png" style="width:100%;">
+        <div class="carousel-caption"> </div>
+      </div>
+      <div class="item"> <img class="img-responsive" alt="Slider" src="images/index_05.png" style="width:100%;">
+        <div class="carousel-caption"> </div>
+      </div>
+      <div class="item"> <img class="img-responsive" alt="Slider" src="images/index_05.png" style="width:100%;">
+        <div class="carousel-caption"> </div>
+      </div>
+    </div>
+    
+    <!-- Controls --> 
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+</section>
+
+
+<div class="about">
+     <p class="title">
+     有关我们
+     </p>
+     <div th:text="${session.user}"></div><!-- 取得session 用户变量  anthcontroller-->
+     <p class="title2">
+     深圳市海王星辰医药有限公司，连0锁药店业领先企业，中国大陆直营门店数较多的药店连锁企业，国内知名的大型医药、健康产品的专业营销公司
+     </p>
+     <div class="container">
+     <div class="row">
+     <div class="col-lg-4">
+     <div class="tu wow fadeInLeft">
+     <img src="images/index_08.png" class="img-responsive center-block jczp-img hvr-grow-shadow">
+     </div>
+     <p class="brief wow fadeInRight">
+     这里有最专业的内容涵盖国内外各矿口的的各松石专业知识；高品质的各矿口成矿口
+     </p>
+     </div>
+     <div class="col-lg-4">
+     <div class="tu wow fadeInLeft">
+     <img src="images/index_10.png" class="img-responsive center-block jczp-img hvr-grow-shadow">
+     </div>
+     <p class="brief wow fadeInRight">
+     这里有最专业的内容涵盖国内外各矿口的的各松石专业知识；高品质的各矿口成矿口
+     </p>
+     </div>
+     <div class="col-lg-4">
+     <div class="tu wow fadeInLeft">
+     <img class="img-responsive center-block jczp-img hvr-grow-shadow" src="images/index_12.png" >
+     </div>
+     <p class="brief wow fadeInRight">
+     这里有最专业的内容涵盖国内外各矿口的的各松石专业知识；高品质的各矿口成矿口
+     </p>
+     </div>
+</div>
+</div>
+</div>
+<div class="introduction">
+<p class="ttitlee">
+     店铺介绍
+     </p>
+     <p class="ttitle2">
+     深圳市海王星辰医药有限公司，连0锁药店业领先企业，中国大陆直营门店数较多的药店连锁企业，国内知名的大型医药、健康产品的专业营销公司
+     </p>
+<div class="container">
+<div class="row">
+<div class="abc text-center">
+<div class="col-lg-4 wow fadeInLeft">
+<div class="kangk">
+<img src="images/index_27.png" class="img-responsive center-block jczp-img hvr-grow-shadow"></div>
+<p class="nae wow fadeInRight">店铺名称</p>
+</div>
+</div>
+<div class="abc text-center">
+<div class="col-lg-4 wow fadeInLeft">
+<div class="kangk">
+<img src="images/index_29.png" class="img-responsive center-block jczp-img hvr-grow-shadow"></div>
+<p class="nae wow fadeInRight">店铺名称</p>
+</div>
+</div>
+<div class="abc text-center">
+<div class="col-lg-4 wow fadeInLeft">
+<div class="kangk">
+<img src="images/index_20.png" class="img-responsive center-block jczp-img hvr-grow-shadow"></div>
+<p class="nae wow fadeInRight">店铺名称</p>
+</div>
+</div>
+</div>
+<div class="button">
+<img src="images/index_15.png">
+</div>
+</div>
+</div>
+<div class="container-fulid fenlan12">
+    
+  </div>
+
+<div class="display">
+<p class="title">
+     产品展示
+     </p>
+     <p class="title2">
+     深圳市海王星辰医药有限公司，连0锁药店业领先企业，中国大陆直营门店数较多的药店连锁企业，国内知名的大型医药、健康产品的专业营销公司
+     </p>
+     <div class="container">
+     <div class="row">
+     <div class="col-lg-4">
+     <div class="ccc">
+    <img src="images/index_38.png" class="img-responsive center-block jczp-img hvr-grow-shadow"></div>
+     <P class="bos wow fadeInRight">产品名称</P>
+     <p class="brief2">
+     这里有最专业的内容涵盖国内外各矿口的的各松石专业知识；高品质的各矿口成矿口
+     </p>
+     </div>
+     
+     <div class="col-lg-4">
+     <div class="ccc">
+    <img src="images/index_38.png" class="img-responsive center-block jczp-img hvr-grow-shadow"></div>
+     <P class="bos wow fadeInRight">产品名称</P>
+     <p class="brief2">
+     这里有最专业的内容涵盖国内外各矿口的的各松石专业知识；高品质的各矿口成矿口
+     </p>
+     </div>
+     
+     <div class="col-lg-4">
+     <div class="ccc">
+    <img src="images/index_38.png" class="img-responsive center-block jczp-img hvr-grow-shadow"></div>
+     <P class="bos wow fadeInRight">产品名称</P>
+     <p class="brief2">
+     这里有最专业的内容涵盖国内外各矿口的的各松石专业知识；高品质的各矿口成矿口
+     </p>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="hyxw">
+     <div class="container">
+     <div class="row">
+     <div class="col-lg-6">
+     <div class="coll text-center">
+     <div class="huiyuan">
+     <p class="biaoti">
+     会员中心
+     </p>
+     <div class="col-md-12 text-center">
+     <div class="mmm">
+     </div>
+     </div>
+     </div>
+     <div class="col-lg-6">
+     <div class="hytu">
+     <img src="images/index_48.png" class="img-responsive center-block jczp-img hvr-grow-shadow">
+     </div>
+          <P class="nae2">产品名称</P>
+
+     <div class="hytu">
+     <img src="images/index_50.png" class="img-responsive center-block jczp-img hvr-grow-shadow">
+     </div>
+          <P class="nae2">产品名称</P>
+
+     </div>
+     <div class="col-lg-6">
+ <div class="hytu">
+     <img src="images/index_54.png" class="img-responsive center-block jczp-img hvr-grow-shadow">
+     </div>     <P class="nae2">产品名称</P>
+
+ <div class="hytu">
+     <img src="images/index_55.png" class="img-responsive center-block jczp-img hvr-grow-shadow">
+     </div>      <P class="nae2">产品名称</P>
+    </div>
+     <div class="col-md-12 text-center">
+     <img class="more"src="images/index_23.png"></div>
+     </div>
+     </div>
+     <div class="col-lg-6">
+     <div class="news text-center">
+     <p class="biaoti">
+     新闻中心
+     </p>
+     <div class="mmm"> 
+     </div>
+     </div>
+     <div class="top">
+     <p class="title3">
+     新闻标题
+     </p>
+     <p class="nei">
+     深圳市海王星辰医药有限公司，连锁药店业领先企业，中国大陆直营门店数较多的药店连锁企业，国内知名的大型医药、健康产品的深圳市海王星辰医药有限公司，连锁药店
+     </p>
+     </div><div class="top">
+     <p class="title3">
+     新闻标题
+     </p>
+     <p class="nei">
+     深圳市海王星辰医药有限公司，连锁药店业领先企业，中国大陆直营门店数较多的药店连锁企业，国内知名的大型医药、健康产品的深圳市海王星辰医药有限公司，连锁药店
+     </p>
+     </div>
+     <div class="borrom">
+     <p class="title3">
+     新闻标题
+     </p>
+     <p class="nei2">
+     业领先企业，中国大陆直营门店数较多的药店连锁企业，国内知名的大型医药、健康产品的业领先企业，中国大陆直营门店数较多的药店连锁企业，国内知名的大型医药、健康产品的深圳市海王星辰医药有限公司，连锁药店
+     </p>
+     </div>
+     <div class="col-md-12 text-center">  
+     <img class="more" src="images/index_23.png">
+     </div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="container-fulid fenlan123">
+    
+  </div>
+     <div class="photo">
+     <p class="title">
+     相册
+     </p>
+     <div class="container">
+     <div class="row">
+     <div class="col-lg-4">
+     <div class="tu wow fadeInLeft">
+     <img src="images/index_58.png" class="img-responsive center-block jczp-img hvr-grow-shadow">
+     </div>
+     <P class="boss wow fadeInRight">产品名称</P>
+     </div>
+     <div class="col-lg-4">
+     <div class="tu wow fadeInLeft">
+     <img src="images/index_60.png" class="img-responsive center-block jczp-img hvr-grow-shadow">
+     </div>
+     <P class="boss wow fadeInRight">产品名称</P>
+     </div>
+     <div class="col-lg-4">
+     <div class="tu wow fadeInLeft">
+     <img src="images/index_62.png" class="img-responsive center-block jczp-img hvr-grow-shadow">
+     </div>
+     <P class="boss wow fadeInRight">产品名称</P>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="parter">
+     <p class="title">
+     合作伙伴
+     </p>
+     <div class="biao">
+     <div class="container">
+     <div class="row">
+     <div class="col-lg-3">
+     <img class="coop" src="images/index_01.jpg">
+     </div>
+     <div class="col-lg-3">
+     <img class="coop" src="images/index_03.jpg">
+     </div>
+     <div class="col-lg-3">
+     <img class="coop" src="images/index_06.jpg">
+     </div>
+     <div class="col-lg-3">
+     <img class="coop" src="images/index_08 (2).png">
+     </div>
+     </div>
+     </div>
+     </div>
+     </div>
+     <div class="contact">
+     <div class="container">
+     <div class="row">
+     <div class="col-lg-6 wow fadeInLeft">
+     <div class="left">
+     <div class="col-lg-6">
+     <img class="erwei" src="images/index_01.png">
+     <p class="wechat">药店网官方微信</p>
+     <p class="ddd text-center">关注官方微信掌握更新健康产品信息</p>
+      </div>
+      <div class="col-lg-6">
+     <img class="erwei" src="images/index_01.png">
+     <p class="wechat">药店网官方微信</p>
+     <p class="ddd text-center">手机端购买惊喜更多</p>
+     </div>
+     </div>
+     </div>
+     <div class="col-lg-6 wow fadeInRight">
+     <div class="rightt">
+      <p> 地 址：北京市海淀区西三环中路11号中央电视塔北京市海淀区西三环中路11号中央电视塔</p>
+           <p> 电 话：0086-010-68475801 / 010-59433056</p>
+            <p>邮 箱：404044176@qq.com</p>
+            <p>官网：404044176@qq.com</p>
+     <div class="weizhi">
+     <img class="chakan pull-right" src="images/index_03.png">
+     </div>
+     </div>
+     </div>
+
+     </div>
+     </div>
+     </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-1.11.3.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.pin.js"></script> 
+<script>
+    $(".navbar").pin()
+  </script> 
+<script src="js/wow.min.js"></script> 
+<script>
+    new WOW().init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!doctype html>
+<html xmlns:th=”http://www.thymeleaf.org”>
+<head>
+<meta charset="utf-8">
+<title>连锁药店－响应式网站模版-display</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/animate.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="fancybox/fancybox.css" rel="stylesheet">
+</head>
+<body>
+<nav id="navbar-example" class="navbar navbar-default navbar-fixed-top " role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse"> <span class="sr-only">切换导航</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <img src="images/index_02.png" class="abc"></div>
+    <div class="collapse navbar-collapse nav-bar text-center"  id="example-navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="text-center"><a href="index.html">首页</a></li>
+         <li class="text-center"><a href="about.html">关于我们</a></li>
+        <li class="text-center"><a href="introduction.html">店铺介绍</a></li>
+        <li class="active text-center"><a href="display.html">产品展示</a></li>
+        <li class="text-center"><a href="member.html">会员中心</a></li>
+        <li class="text-center"><a href="news.html">新闻中心</a></li>
+        <li class="text-center"><a href="clerk.html">优秀店员</a></li>
+        <li class="text-center"><a href="video.html">视频专区</a></li>
+        <li class="text-center"><a href="photo.html">相册</a></li>
+        <li class="text-center"><a href="contact.html">联系我们</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="bann"> <img src="images/about_01.png"> </div>
+<div class="kk">
+  <div class="container">
+    <ul class="buttom">
+      <!--分类--> 
+      <a href="../exhibition.html">
+      <li class="buttom-active buttom-hover">显示所有</li>
+      </a> <a href="../exhibition.html">
+      <li class="buttom-hover">字画类</li>
+      </a> <a href="../exhibition.html">
+      <li class="buttom-hover">国家类</li>
+      </a> <a href="../exhibition.html">
+      <li class="buttom-hover">书法类</li>
+      </a> <a href="../exhibition.html">
+      <li class="buttom-hover">其他分类</li>
+      </a>
+    </ul>
+  </div>
+</div>
+<div class="zs">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4" th:each="item,status:${pu?.getList()}"><!-- 循环语句  两个变量-->
+       <div class="ccc">
+     <img src="images/index_38.png" class="img-responsive center-block jczp-img hvr-grow-shadow">
+</div>
+        <a href="display_view.html"><P class="bos wow fadeInRight" th:text="${item?.name}"></P></a>
+        <p class="brief2 wow fadeInRight" th:text="${item?.details}"> </p>
+      	<p class="brief2 wow fadeInRight" th:text="${item?.price}"></p>
+      	<p class="brief2 wow fadeInRight" th:text="${item?.user?.name}"></p><!-- 把产品用户对象查出来，再查名字是谁 -->
+      </div> <!--class="brief2 wow fadeInRight"居中  --> <!-- 属性为name，里面的字符串会删除掉 -->
+     
+     
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+       <div class="ccc">
+     <img src="images/index_38.png" class="img-responsive center-block jczp-img hvr-grow-shadow">
+     </div>
+        <a href="display_view.html"><P class="bos wow fadeInRight">产品名称</P></a>
+        <p class="brief2 wow fadeInRight"> 这里有最专业的内容涵盖国内外各矿口的的各松石专业知识；高品质的各矿口成矿口 </p>
+      </div>
+      <div class="col-lg-4"> 
+       <div class="ccc">
+     <img src="images/index_38.png" class="img-responsive center-block jczp-img hvr-grow-shadow">
+     </div>
+        <a href="display_view.html"><P class="bos wow fadeInRight">产品名称</P></a>
+        <p class="brief2 wow fadeInRight"> 这里有最专业的内容涵盖国内外各矿口的的各松石专业知识；高品质的各矿口成矿口 </p>
+      </div>
+      <div class="col-lg-4">
+       <div class="ccc">
+     <img src="images/index_38.png" class="img-responsive center-block jczp-img hvr-grow-shadow">
+     </div>
+        <a href="display_view.html"><P class="bos wow fadeInRight">产品名称</P></a>
+        <p class="brief2 wow fadeInRight"> 这里有最专业的内容涵盖国内外各矿口的的各松石专业知识；高品质的各矿口成矿口 </p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="fenye">
+    <ul class="pager">
+      <li class="previous"> <a href="#">上一页</a> </li>
+      <li class="next"> <a href="#">下一页</a> </li>
+    </ul>
+  </div>
+</div>
+<div class="parter">
+  <p class="title"> 合作伙伴 </p>
+  <div class="biao">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3"> <img class="coop" src="images/index_01.jpg"> </div>
+        <div class="col-lg-3"> <img class="coop" src="images/index_03.jpg"> </div>
+        <div class="col-lg-3"> <img class="coop" src="images/index_06.jpg"> </div>
+        <div class="col-lg-3"> <img class="coop" src="images/index_08 (2).png"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="left">
+          <div class="col-lg-6"> <img class="erwei" src="images/index_01.png">
+            <p class="wechat">药店网官方微信</p>
+            <p class="ddd text-center">关注官方微信掌握更新健康产品信息</p>
+          </div>
+          <div class="col-lg-6"> <img class="erwei" src="images/index_01.png">
+            <p class="wechat">药店网官方微信</p>
+            <p class="ddd text-center">手机端购买惊喜更多</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="rightt">
+           <p> 地 址：北京市海淀区西三环中路11号中央电视塔北京市海淀区西三环中路11号中央电视塔</p>
+           <p> 电 话：0086-010-68475801 / 010-59433056</p>
+            <p>邮 箱：404044176@qq.com</p>
+            <p>官网：404044176@qq.com</p>
+          <div class="weizhi"> <img class="chakan pull-right" src="images/index_03.png"> </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="js/jquery-1.11.3.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.pin.js"></script> 
+<script>
+    $(".navbar").pin()
+  </script> 
+<script src="js/wow.min.js"></script> 
+<script>
+    new WOW().init();
+  </script> 
+<script src="fancybox/jquery.fancybox.js"></script> 
+<script type="text/javascript">
+$(function(){
+	$(".Jfancybox").fancybox({
+		openEffect	: 'elastic',
+		closeEffect	: 'elastic',
+		prevEffect		: 'elastic',
+		nextEffect		: 'elastic',
+		closeBtn		: false,
+		helpers		: {
+			title	: { type : 'inside' },
+			buttons	: {},
+			thumbs	: {
+				width	: 50,
+				height	: 50
+			}
+		}
+	});
+});
+</script>
+</body>
+</html>
